@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Relative and Absolute</title>
+</head>
+<body>
+   <div class="container">
+        <div class="child">child</div>
+    </div>
+   
+    <p>
+        <strong>Explanation:</strong><br>
+        Absolute positioning places an element relative to
+         its nearest positioned ancestor (an ancestor with a
+          `position` value other than `static`). In this example,
+           the child <div,> is absolutely positioned and placed 30px 
+            from the top and 50px from the left of the container.
+             This works because the container has `position: relative;
+             , which establishes the positioning context for the child. 
+             If the container did not have a `position` value other than `static`,
+              the child would be positioned relative to the viewport instead.
+    </p>
+    </body>
+</html>

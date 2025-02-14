@@ -1,0 +1,20 @@
+   /* Container with relative positioning */
+   .container {
+    position: relative; /* Establishes a positioning context */
+    height: 200px; /* Fixed height */
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+  }
+
+  /* Absolutely positioned child */
+  .child {
+    position: absolute; /* Positioned relative to the container */
+    top: 30px; /* 30px from the top of the container */
+    left: 50px; /* 50px from the left of the container */
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 100px; /* Vertically center text */
+  }
